@@ -14,7 +14,7 @@
 
 ### 许可
 
-本指南在xxx下进行许可。
+本指南在 [Apache License 2.0](https://github.com/lz233/FFmpeg-Guide/blob/master/LICENSE) 下进行许可。
 
 ## 安装与部署
 
@@ -32,9 +32,18 @@
 
 #### 从源码编译
 
-### Linux
+### GNU/Linux
 
 #### 通过命令行部署
+大多数 Linux 发行版都有强大的包管理系统，只需一行命令便能部署 ffmpeg。
+- Debian 
+`sudo apt install ffmpeg`
+- 红帽系
+根据发行版的不同，可能有以下安装方式。
+`yum install ffmpeg`
+`dnf install ffmpeg`
+- Arch 系
+`pacman -S ffmpeg`
 
 #### 获取二进制文件
 
