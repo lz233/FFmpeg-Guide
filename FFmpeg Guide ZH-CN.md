@@ -24,10 +24,9 @@
 
 #### 获取二进制文件
 
-1. 在[Zeranoe](https://ffmpeg.zeranoe.com/builds/)中选择你需要获取的分支，下载其二进制文件。
+1. 在 [Zeranoe](https://ffmpeg.zeranoe.com/builds/) (https://ffmpeg.zeranoe.com/builds/) 中选择你需要获取的分支，下载其二进制文件。
 2. 转到控制面板-系统和安全-系统-高级系统设置-高级-环境变量，在Path变量中添加 ffmpeg 二进制文件的目录。例如`C:\Users\24843\Documents\exe\ffmpeg`
-3. 使用命令提示符/Windows PowerShell/Windows Termainal，键入`ffmpeg`。如果控制台的输出像这样的话，即安装完毕。
-
+3. 使用 CMD/Windows PowerShell/Windows Termainal，键入`ffmpeg`。如果控制台的输出像这样的话，即安装完毕。
 `ffmpeg version 4.2 Copyright (c) 2000-2019 the FFmpeg developers`
 
 #### 从源码编译
