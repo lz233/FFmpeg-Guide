@@ -31,6 +31,8 @@
 
 #### 从源码编译
 
+待完成……
+
 ### GNU/Linux
 
 #### 通过命令行部署
@@ -53,29 +55,47 @@
 
 `pacman -S ffmpeg`
 
-使用终端，键入`ffmpeg`。如果控制台的输出像这样的话，即安装完毕。
+使用终端，键入`ffmpeg`，如果终端的输出像这样的话，即安装完毕。
 
 `ffmpeg version 4.2 Copyright (c) 2000-2019 the FFmpeg developers`
 
 #### 获取二进制文件
 
+待完成……
+
 #### 从源码编译
+
+待完成……
 
 ### Apple Mac OS
 
 #### 通过命令行部署
 
+在终端键入`brew install ffmpeg`即可部署。完成后键入`ffmpeg`，如果终端的输出像这样的话，即安装完毕。
+
+`ffmpeg version 4.2 Copyright (c) 2000-2019 the FFmpeg developers`
+
 #### 获取二进制文件
 
+待完成……
+
 #### 从源码编译
+
+待完成……
 
 ### Apple iOS/iPad OS
 
 #### 从Cydia部署
 
+在 Cydia 或其他包管理器中搜索 ffmpeg，应该会出现相应的包，安装即可。完成后在终端键入`ffmpeg`，如果终端的输出像这样的话，即安装完毕。
+
+`ffmpeg version 4.2 Copyright (c) 2000-2019 the FFmpeg developers`
+
 ### Android
 
-#### 从Google Play获取
+#### 从 Google Play Store 获取
+
+Google Play Store 有很多类似的应用，比如 [FFmpegui](https://play.google.com/store/apps/details?id=org.ffmpeg.gui)、[FFmpegMediaEncoder](https://play.google.com/store/apps/details?id=com.silentlexx.ffmpeggui)。或者，也可以在 [NeoTerm](https://www.coolapk.com/apk/io.neoterm)、[Termux](https://play.google.com/store/apps/details?id=com.termux) 内安装 ffmpeg，安装方式与上文 GNU/Linux 的方式几乎无异。
 
 ## 开始工作之前
 
